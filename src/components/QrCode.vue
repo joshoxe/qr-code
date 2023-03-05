@@ -35,7 +35,6 @@ defineProps({
     flex-direction: column;
     align-items: center;
     max-width: 300px;
-    // responsive height
     justify-content: center;
     padding: 15px;
     background-color: white;
