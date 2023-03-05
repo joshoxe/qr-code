@@ -13,14 +13,13 @@
 </template>
 
 <script setup>
-const props = defineProps({
+defineProps({
   qrCodeImage: {
     type: Image,
     required: true
   }
 });
 
-const qrCodeImg = new URL(props.qrCodePath, import.meta.url).href;
 </script>
 
 <style lang="scss" scoped>
