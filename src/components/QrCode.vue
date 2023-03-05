@@ -1,7 +1,7 @@
 <template>
   <div id="page">
     <div id="qr-code">
-      <img id="qr-code-img" :src="qrCodeImg" alt="QR Code" />
+      <img id="qr-code-img" :src="qrCodeImage" alt="QR Code" />
 
       <div id="qr-code-text">
         <h1>Improve your front-end skills by building projects</h1>
@@ -14,8 +14,8 @@
 
 <script setup>
 const props = defineProps({
-  qrCodePath: {
-    type: String,
+  qrCodeImage: {
+    type: Image,
     required: true
   }
 });

@@ -1,10 +1,9 @@
 <template>
-  <qr-code :qr-code-path="qrCodePath" />
+  <qr-code :qr-code-image="Qr" />
 </template>
 
 <script setup>
 import QrCode from './components/QrCode.vue'
-
-const qrCodePath = '/src/assets/img/qr-code.png'
+import Qr from './assets/img/qr.png'
 
 </script>
